@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transfer_navigation"
+    app:startDestination="@id/transferMobileBankingFragment">
+
+    <fragment
+        android:id="@+id/transferMobileBankingFragment"
+        android:name="com.app.livecode.mobilebanking.fragments.TransferMobileBankingFragment"
+        android:label="fragment_transfer_mobile_banking"
+        tools:layout="@layout/fragment_transfer_mobile_banking" />
+    <fragment
+        android:id="@+id/transferAmountMobileBankingFragment"
+        android:name="com.app.livecode.mobilebanking.fragments.TransferAmountMobileBankingFragment"
+        android:label="fragment_transfer_amount_mobile_banking"
+        tools:layout="@layout/fragment_transfer_amount_mobile_banking" />
+    <fragment
+        android:id="@+id/transferConfirmationMobileBankingFragment"
+        android:name="com.app.livecode.mobilebanking.fragments.TransferConfirmationMobileBankingFragment"
+        android:label="fragment_transfer_confirmation_mobile_banking"
+        tools:layout="@layout/fragment_transfer_confirmation_mobile_banking" />
+    <action
+        android:id="@+id/action_global_transferAmountMobileBankingFragment"
+        app:destination="@id/transferAmountMobileBankingFragment" />
+    <action
+        android:id="@+id/action_global_transferConfirmationMobileBankingFragment"
+        app:destination="@id/transferConfirmationMobileBankingFragment" />
+</navigation>

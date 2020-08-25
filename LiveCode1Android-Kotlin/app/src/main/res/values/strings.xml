@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LiveCode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bank_prompt">Choose a Bank</string>
+    <string-array name="bank_arrays">
+        <item>BCA</item>
+        <item>Mandiri</item>
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>CIMB Niaga</item>
+        <item>BTPN</item>
+        <item>Permata</item>
+    </string-array>
+</resources>
